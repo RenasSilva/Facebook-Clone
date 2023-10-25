@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{clear: both;}
+
+header {
+    background: linear-gradient( #4267B2,  #334e88);
+    padding: 15px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 42px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.249);
+    cursor: pointer;
+}
+
+form.form-login {
+    float: right;
+}
+
+.form-login .form-element {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form-element p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-element input[type="email"],
+.form-element input[type="password"]{
+    margin-top: 4px;
+    border: 0;
+    height: 21px;
+    outline: none;
+    padding-left: 4px;
+}
+
+.esqueceu {
+    text-align: right;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.72);
+    cursor: pointer;
+    margin-right: 126px;
+    margin-top: -3px;
+}
+
+.form-element input[type="submit"]{
+    padding: 2px 4px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    background: linear-gradient( #4267B2,  #334e88);
+    border: 1px solid #2e4779;
+    cursor: pointer;
+}
+
+.form-element input[type="submit"]:hover {
+    background: linear-gradient( #4267B2,  #314c85);
+}
+
+section.main {
+    background: linear-gradient(white, #D3D8E8);
+    padding: 30px 0;
+}
+
+.img-pessoas {
+    width: 60%;
+    float: left;
+}
+
+.img-pessoas p {
+   max-width: 500px;
+   margin-top: 5px;
+   padding-left: 20px;
+   color:  #16223d;
+   font-weight: bold;
+   font-size: 21px;
+}
+
+
+.img-pessoas img {
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.abrir-conta {
+    float: left;
+    width: 40%;
+}
+
+.abrir-conta h2 {
+    font-size: 34px;
+    padding: 0 5px;
+}
+
+.abrir-conta h3 {
+    margin-top: 10px;
+    font-size: 19px;
+    padding: 0 5px;
+    color: rgb(31, 31, 31);
+}
+
+.criar-conta input{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+.criar-conta {
+    margin-top: 10px;
+}
+
+.w50 {
+    padding: 0 5px;
+    float: left;
+    width: 50%;
+}
+
+.w100 {
+    padding: 0 5px;
+    float: left;
+    width: 100%;
+}
+
+.criar-conta input[type="text"],
+.criar-conta input[type="email"],
+.criar-conta input[type="password"]{
+    padding-left: 5px;
+    height: 40px;
+    border: 0;
+    border: 1px solid #979797;
+    font-size: 18px;
+    outline: none;
+}
+
+.criar-conta input[type="text"]:focus,
+.criar-conta input[type="email"]:focus,
+.criar-conta input[type="password"]:focus{
+   border: 1px solid #1877f2;
+}
+
+
+.criar-conta input[type="submit"]{
+    border: 0;
+    max-width: 180px;
+    padding: 7px 0;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(#67ae55, #578843);
+    border: 1px solid #3d602f;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.435);
+    margin-top: 30px;
+}
+
+.w100 h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.nascimento {
+    margin-top: 10px;
+    float: left;
+    padding: 4px 4px;
+    
+}
+
+.p-select p {
+    font-size: 12px;
+    color: rgb(5, 63, 117);
+    
+    margin-top: 8px;
+    float: left;
+    cursor: pointer;
+    padding-left: 12px;
+    
+}
+
+.input-radio {
+    float: left;
+    margin: 8px 5px;
+}
+
+.input-radio h2 {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.input-radio input[type="radio"]{
+    width: auto !important;
+    display:inline-block;
+}
+
+section.linguas {
+    padding: 90px 0;
+}
+
+.linguas .center {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0px;
+    padding-right: 4px;
+    text-align: justify;
+}
+
+.linguas .selected-lingua{
+    color: #737373;
+}
+
+.linguas a {
+    text-decoration: none;
+    color: rgb(5, 63, 117);
+    font-size: 12.5px;
+    padding-left: 8px;
+}
+
+.linguas a:hover{
+    text-decoration: underline;
+}
+
+.linguas .selected-lingua:hover {
+    text-decoration: none;
+}
+
+.linguas input[type="button"]{
+    padding: 1px 11px;
+    margin-left: 10px;
+    border:0;
+    cursor:pointer;
+    border: 1px solid #ccc;
+    transition: 50ms;
+    font-weight: bold;
+}
+
+.linguas input[type="button"]:hover {
+    background-color: #e1dede;
+}
+
+.termos {
+    margin-top: 10px;
+}
+
+.termos p {
+    font-size: 14px;
+    color: #565656;
+}
+
+
+.termos a {
+    text-decoration: none;
+    color: rgb(5, 63, 117);
+}
+
+.criar {
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.criar a {
+    text-decoration: none;
+    color: rgb(5, 63, 117);
+}
+
+.criar span {
+    color: #565656;
+}
+
+@media screen and (max-width: 976px){
+    .p-select {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .form-login {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .form-login .form-element {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .form-element p {
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .form-element input[type="email"],
+    .form-element input[type="password"]{
+        margin-top: 4px;
+        border: 0;
+        height: 21px;
+        outline: none;
+        padding-left: 4px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .esqueceu p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-left: 130px;
+        
+    }
+
+    .img-pessoas {
+        display: none;
+    }
+
+    .abrir-conta {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+
+    .abrir-conta .nascimento  {
+        float: none;
+        width: 50%;
+        max-width: 100px;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    .p-select p {
+        float: none;
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+        left: 0;
+    }
+
+    .p-select {
+        transform:translateX(0%);
+    }
+
+    .input-radio {
+        float: none;
+
+        display: inline-block;
+    
+    }
+    
+  
+    .linguas .center {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+
+        text-align: center;
+    }
+    
+    .linguas .selected-lingua{
+        color: #737373;
+    }
+    
+    .linguas a {
+        text-decoration: none;
+        color: rgb(5, 63, 117);
+        font-size: 12.5px;
+        padding-left: 8px;
+    }
+
+
+}
